@@ -68,7 +68,7 @@ loadData <- function(testOrTrain, rootDir){
     activity_name <- yData_joined$activity_name
     
     # We only want to keep SOME of the feature data
-    is_desired_feature <- grepl("mean()",feature_table$feature_name) | grepl("std()",feature_table$feature_name)
+    is_desired_feature <- grepl("-mean()",feature_table$feature_name,fixed=TRUE) | grepl("-std()",feature_table$feature_name,fixed=TRUE)
     
     # Bind all the relevant columns together
     cbind(subject_id, activity_name, xData[,is_desired_feature])

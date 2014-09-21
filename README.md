@@ -36,12 +36,12 @@ variable|String| ((see below))
 average|Double| -1.0..1.0
 
 
-=Notes on the origin of variable values
-==subject_id
+#Notes on the origin of variable values
+##subject_id
 The subject ID is pulled directly from train/subject_train.txt in the appropriate train/test directory of the original dataset.
-==activity_name
+##activity_name
 The activity name is acquired by pulling the activity type from train/y_train.txt and the label for the activity type from activity_labels.txt.
-==variable
+##variable
 The variables are derived from the following core data sets:
 
 tBodyAcc-XYZ
@@ -68,5 +68,5 @@ tBodyAcc.std...X is the standard deviation of the tBodyAcc measurement for the X
 
 More information on these can be found in features_info.txt
 
-==average
-The average value is the mean of the measurements for an activity for a particular subject for a particular variable.
+##average
+The average value is the mean of the measurements for an activity for a particular subject for a particular variable. The original values were normalized to [-1,1]. There has been no attempt to re-normalize the mean values to have the same min/max as the original dataset.
