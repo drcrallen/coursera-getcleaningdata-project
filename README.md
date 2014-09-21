@@ -44,27 +44,27 @@ The activity name is acquired by pulling the activity type from train/y_train.tx
 ##variable
 The variables are derived from the following core data sets:
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The labels themselves are for the mean or standard deviation and are formatted as follows:
-tBodyAcc.mean...X is the mean tBodyAcc measurement for the X asis
-tBodyAcc.std...X is the standard deviation of the tBodyAcc measurement for the X axis
+* tBodyAcc.mean...X is the mean tBodyAcc measurement for the X asis
+* tBodyAcc.std...X is the standard deviation of the tBodyAcc measurement for the X axis
 
 More information on these can be found in features_info.txt
 
