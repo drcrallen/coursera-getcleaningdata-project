@@ -17,6 +17,8 @@ The run_analysis.R script takes the original data and transforms it into a tidy 
 
 The data is filtered to only include the mean and standard deviation of various activities.
 
+Example values are as follows:
+
 subject_id|activity_name|variable|average
 ----------|-------------|--------|-------
 1|LAYING|tBodyAcc.mean...X|0.22159824394
@@ -37,6 +39,8 @@ average|Double| -1.0..1.0
 
 
 #Notes on the origin of variable values
+Train and test datasets will only be addressed as "train" for the purpose of this document. All train and test datasets are taken together to form one master dataset.
+All references to train can have the letters "train" substituted verbatim for "test" to have the statement apply to the test dataset.
 ##subject_id
 The subject ID is pulled directly from train/subject_train.txt in the appropriate train/test directory of the original dataset.
 ##activity_name
